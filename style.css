@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body.body {
+    font-family: sans-serif;
+    background-color: rgb(4, 11, 51);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background-color: rgba(40, 50, 112, 0.733);
+    color: #FFFFFF;
+    font-family: Poppins, sans-serif;
+    width: 300px;
+    height: 500px;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.app::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.app h4 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.app h5 {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 25px;
+}
+
+#addNew {
+    background-color: rgb(231, 246, 247);
+    color: rgb(4, 11, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid lightblue;
+}
+
+#btnAdd {
+    background-color: rgb(40, 50, 112);
+    color: #FFFFFF;
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+}
+
+#btnAdd:hover {
+    transform: scale(1.1);
+}
+
+#tasks {
+    display: grid;
+    gap: 14px;
+}
+
+#tasks div {
+    background-color: rgb(231, 246, 247);
+    color: rgb(4, 11, 51);
+    border: 2px solid lightblue;
+    padding: 10px;
+    border-radius: 6px;
+    display: grid;
+    gap: 4px;
+}
+
+.options {
+    color: rgb(4, 11, 51);
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+#msg {
+    color: red;
+}
+
+#edit, #delete{
+    background-color: rgb(40, 50, 112);
+    color: #FFFFFF;
+    height: 35px;
+    width: 35px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 2px solid lightblue;
+}
+
+#edit:hover, #delete:hover {
+    transform: scale(1.2);
+}
+
+#form {
+    color: rgb(4, 11, 51);
+}
+
+#form h1 {
+    font-family: Monserrat, sans-serif;
+}
+
+#form textarea {
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0 !important
+}
+
+#closeBtn {
+    background-color: rgb(66, 168, 202);
+    border: 1px solid lightblue;
+}
+
+#closeBtn:hover {
+    color: #FFFFFF;
+    background-color: rgb(108, 167, 187);
+    transform: scale(1.1);
+}
+
+#addBtn {
+    background-color: rgb(4, 11, 51);
+    border: 1px solid rgb(4, 11, 51);
+}
+
+#addBtn:hover {
+    background-color: rgb(23, 33, 92);
+    transform: scale(1.1);
+}
